@@ -4,7 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: print the environment
       - run: echo ${{ github.workspace }}
       - run: printenv
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
