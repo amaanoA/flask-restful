@@ -13,6 +13,6 @@ postgresql = {'host': '0.0.0.0',
          'db': 'db'}
 
 
-mssqlConfig = "mssql+pyodbc://{}:{}@{}:1433/{}?driver=SQL+Server+Native+Client+10.0".format(mssql['user'], mssql['passwd'], mssql['host'], mssql['db'])
+mssqlConfig = 'mysql+pymysql://root:localMysql.87@localhost/livestock'
 postgresqlConfig = "postgresql+psycopg2://{}:{}@{}/{}".format(postgresql['user'], postgresql['passwd'], postgresql['host'], postgresql['db'])
 

@@ -1,0 +1,13 @@
+Flask
+Flask-RESTful
+Flask-SQLAlchemy
+Jinja2
+Flask-JWT-Extended
+python-dateutil
+pytz
+SQLAlchemy
+Werkzeug
+psycopg2-binary
+rich
+passlib
+python-dotenv
